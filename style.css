@@ -34,6 +34,7 @@ body {
   margin-top: 50px;
   margin-right: -140px;
   font-size: 16px;
+  cursor: pointer;
 
 }
 
@@ -69,33 +70,39 @@ body {
   color: #777576;
 }
 
-/*.button-iphone {
+.buttons-banner  {
   display: flex;
-  border-color: #525252 1px solid;
+  border-color: #525252 2px solid;
   width: 20px;
   height: 20px;
-}
-
-.button-iphone h6 {
-  display: flex;
   font-family: 'Open Sans', sans-serif;
+}
+
+.buttons-banner .button-iphone button {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  
+  background: none;
   font-size: 12px;
-  margin-left: -105rem;
-  margin-top: 20px;
-
+  color: #525252;
+  border: 1px solid #525252;
+  margin-right: 20px;
 }
 
-.button-iphone img {
+.buttons-banner .button-android button {
+  height: 40px;
   display: flex;
-  margin-top: -2000px;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  
+  background: none;
+  font-size: 12px;
+  color: #525252;
+  border: 1px solid #525252;
+  margin-right: 20px;
 }
 
-.button-android img {
-  display: flex;
-  margin-left: 77px;
-}
-
-.button-android h6 {
-  display: flex;
-  margin-top: -500rem;
-}*/
