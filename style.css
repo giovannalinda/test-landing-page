@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app{
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #faf9f9;
+  font-family: 'Open Sans', 'regular';
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  
+}
+
+.navigation {
+  position: fixed;
+  background: #44b87a;
+  height: 123px;
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation nav ul li {
+  display: flex;
+  margin-left: 200px;
+  color: #fff;
+  margin-top: 50px;
+  margin-right: -140px;
+  font-size: 16px;
+
+}
+
+.navigation nav img {
+  display: flex;
+  margin-right: -2000px;
+  margin-left: 600px;
+}
+
+.content-banner h1 {
+  display: flex;
+  margin-top: -350px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #525252;
+  margin-left: 272px;
+  letter-spacing: 3px;
+}
+
+.content-banner p {
+  display: flex;
+  margin-left: 272px;
+  width: 500px;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  line-height: 22px;
+  color: #777576;
+}
+
+.button-iphone {
+  display: flex;
+  border-color: #525252 1px solid;
+  width: 20px;
+  height: 20px;
+}
+
+.button-iphone h6 {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin-left: -105rem;
+  margin-top: 20px;
+
+}
+
+.button-iphone img {
+  display: flex;
+  margin-top: -2000px;
+}
+
+.button-android img {
+  display: flex;
+  margin-left: 77px;
+}
+
+.button-android h6 {
+  display: flex;
+  margin-top: -500rem;
+}
