@@ -4,12 +4,7 @@
   box-sizing: border-box;
 }
 
-html,
-body,
-#app{
-  height: 100%;
-  margin: 0;
-}
+
 
 body {
   background: #faf9f9;
@@ -20,16 +15,16 @@ body {
 }
 
 .navigation {
+  display: flex;
   position: fixed;
   background: #44b87a;
-  height: 123px;
+  height: 125px;
   width: 100%;
-  z-index: 1;
+  margin-top: -115px;
 }
 
 .navigation nav ul {
   display: flex;
-  list-style: none;
 }
 
 .navigation nav ul li {
@@ -46,6 +41,11 @@ body {
   display: flex;
   margin-right: -2000px;
   margin-left: 600px;
+}
+
+.banner {
+  display: flex;
+  margin-top: 100px;
 }
 
 .content-banner h1 {
@@ -69,7 +69,7 @@ body {
   color: #777576;
 }
 
-.button-iphone {
+/*.button-iphone {
   display: flex;
   border-color: #525252 1px solid;
   width: 20px;
@@ -98,4 +98,4 @@ body {
 .button-android h6 {
   display: flex;
   margin-top: -500rem;
-}
+}*/
