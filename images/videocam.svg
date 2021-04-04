@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.594" height="14.41" viewBox="0 0 21.594 14.41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #595959;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="780.062" y="1183.34" width="21.594" height="14.41" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#6d6c6c"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Video_Camera" data-name="Video Camera" class="cls-1" d="M793.255,1183.34h-12a1.2,1.2,0,0,0-1.2,1.2v12a1.2,1.2,0,0,0,1.2,1.2h12a1.2,1.2,0,0,0,1.2-1.2v-12A1.2,1.2,0,0,0,793.255,1183.34Zm-1.8,12h-8.4a0.6,0.6,0,0,1-.6-0.6v-8.4a0.6,0.6,0,0,1,.6-0.6h8.4a0.6,0.6,0,0,1,.6.6v8.4A0.6,0.6,0,0,1,791.455,1195.34Zm7.8-7.8v6l-4.8-1.98v-2.05l4.8-1.97m1.2-3a1.06,1.06,0,0,0-.422.08l-7.979,3.28v5.27l7.979,3.28a1.075,1.075,0,0,0,.422.09,1.268,1.268,0,0,0,1.2-1.32v-9.36a1.261,1.261,0,0,0-1.2-1.32h0Z" transform="translate(-780.062 -1183.34)"/>
+</svg>
