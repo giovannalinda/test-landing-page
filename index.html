@@ -5,115 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
-      <div class="navigation">
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>Features</li>
-            <li>Testimonials</li>
-            <li><img src="./images/facebookicon.svg" alt="facebook" title="Go to Facebook"></li>
-            <li><img src="./images/twittericon.svg" alt="twitter" title="Go to Twitter"></li>
-            <li><img src="./images/googleicon.svg" alt="google" title="Go to Google"></li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="navigation">
+        <ul class="navigation-items">
+          <li>About</li>
+          <li>Features</li>
+          <li>Testimonials</li>
+        </ul>
+        <ul class="navigation-social-medias">
+          <li><img src="./images/facebookicon.svg" alt="facebook" title="Go to Facebook"></li>
+          <li><img src="./images/twittericon.svg" alt="twitter" title="Go to Twitter"></li>
+          <li><img src="./images/googleicon.svg" alt="google" title="Go to Google"></li>
+        </ul>
+      </nav>
     </header>
 
-    <div class="banner">
-      <img src="./images/banner.jpg" alt="banner">
-    </div>
-    
-    <div class="content-banner">
-      <h1>TAKE PHOTOS LIKE A PRO.</h1>
-      <p>With only your iphone and capture app you can take stunning image like a professional Photographer.</p>
-    </div>
+    <main>
+      <div class="banner">
+        <div class="banner-content">
+          <h1>TAKE PHOTOS LIKE A PRO.</h1>
+          <p>With only your iphone and capture app you can take stunning image like a professional Photographer.</p>
 
-    <div class="buttons-banner">
-      <div class="button-iphone">
-        <button><img src="./images/iconapple.svg" alt="iphone logo">IPHONE APP</button>
+
+          <div class="buttons-banner">
+            <button type="button"><img src="./images/iconapple.svg" alt="iphone logo" width="14" height="16">IPHONE APP</button>
+            <button type="button"><img src="./images/iconandroid.svg" alt="android logo" width="14" height="16">ANDROID APP</button>
+          </div>
+        </div>
+        <img class="background-image" src="./images/banner.jpg" alt="banner">
       </div>
-      <div class="button-android">
-        <button><img src="./images/iconandroid.svg" alt="android logo">ANDROID APP</button>
+
+      <div class="bar">
+        <div class="images-bar">
+          <ul>
+            <li><img src="./images/googlebar.png" alt="google bar"></li>
+            <li><img src="./images/facebookbar.png" alt="facebook bar"></li>
+            <li><img src="./images/yahoobar.png" alt="yahoo bar"></li>
+            <li><img src="./images/paypalbar.png" alt="paypal bar"></li>
+          </ul>
+        </div>
       </div>
-    </div>
 
-    <div class="bar">
-      <div class="images-bar">
-        <ul>
-          <li><img src="./images/googlebar.png" alt="google bar"></li>
-          <li><img src="./images/facebookbar.png" alt="facebook bar"></li>
-          <li><img src="./images/yahoobar.png" alt="yahoo bar"></li>
-          <li><img src="./images/paypalbar.png" alt="paypal bar"></li>
-        </ul>
+      <div class="apresentation">
+        <img src="./images/iphone.png" alt="iphone">
+
+        <div class="apresentation-content">
+          <h1>CAPTURE UNFORGETTABLE MOMENTS.</h1>
+          <p class="description">Seuismod ligula ipsum vulputate tellus quisque dictum tortor at purus faucibus tincidunt, pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+          <ul>
+            <li><img src="./images/cam.svg" alt="câmera">Euismod igula ipsum vulputate tellus.</li>
+            <li><img src="./images/videocam.svg" alt="câmera de vídeo">Morbi non efficitur nibh sit amet est eros.</li>
+            <li><img src="./images/eye.svg" alt="olho">Fusce faucibus ante liberonec luctus egestas.</li>
+            <li><img src="./images/image.svg" alt="fotografia">Quisque pretium malesuada ornare.</li>
+            <li><img src="./images/map-pin.svg" alt="localização">Cras interdum vestibulum dolor.</li>
+          </ul>
+
+          <div class="apresentation-buttons">
+            <button type="button">
+              <img src="./images/play.svg" alt="play"> 
+              WATCH THE VIDEO
+            </button>
+            <p>get the app</p>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="page-side">
-      <img src="./images/iphone.png" alt="iphone">
-    </div>
 
-    <div class="content">
-    <div class="page-content">
-      <h1>CAPTURE UNFORGETTABLE MOMENTS.</h1>
-      <p class="description">Seuismod ligula ipsum vulputate tellus quisque dictum tortor at purus faucibus tincidunt, pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-    </div>
 
-      <ul>
-        <li><img src="./images/cam.svg" alt="câmera">Euismod igula ipsum vulputate tellus.</li>
-        <li><img src="./images/videocam.svg" alt="câmera de vídeo">Morbi non efficitur nibh sit amet est eros.</li>
-        <li><img src="./images/eye.svg" alt="olho">Fusce faucibus ante liberonec luctus egestas.</li>
-        <li><img src="./images/picture.svg" alt="fotografia">Quisque pretium malesuada ornare.</li>
-        <li><img src="./images/location.svg" alt="localização">Cras interdum vestibulum dolor.</li>
-      </ul>
-    
-   <button><img src="./images/play.svg" alt="play">WATCH THE VIDEO</button>
-
-   <p>get the app</p>
-
-  </div>
-
-  <div class="division-green">
-  <div class="grid">
-    <div>
-      <img src="./images/people.svg" alt="people">
-      <h6>MALESUADA FAMES TURPIS.</h6>
-      <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
-    </div>
-
-    <div>
-      <img src="./images/photo.svg" alt="photo">
-      <h6>MALESUADA FAMES TURPIS.</h6>
-      <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
-    </div>
-
-    <div>
-      <img src="./images/box.svg" alt="box">
-      <h6>MALESUADA FAMES TURPIS.</h6>
-      <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
-    </div>
-
-    <div>
-      <img src="./images/conversation.svg" alt="conversation">
-      <h6>MALESUADA FAMES TURPIS.</h6>
-      <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
-    </div>
-
-    <div>
-      <img src="./images/settings.svg" alt="settings">
-      <h6>MALESUADA FAMES TURPIS.</h6>
-      <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
-    </div>
-
-    <div>
-      <img src="./images/printer.svg" alt="printer">
-      <h6>MALESUADA FAMES TURPIS.</h6>
-      <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
-    </div>
-  </div>
-</div>
+      <!--
+        <div class="division-green">
+          <div class="grid">
+            <div>
+              <img src="./images/people.svg" alt="people">
+              <h6>MALESUADA FAMES TURPIS.</h6>
+              <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+            </div>
+        
+            <div>
+              <img src="./images/photo.svg" alt="photo">
+              <h6>MALESUADA FAMES TURPIS.</h6>
+              <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+            </div>
+        
+            <div>
+              <img src="./images/box.svg" alt="box">
+              <h6>MALESUADA FAMES TURPIS.</h6>
+              <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+            </div>
+        
+            <div>
+              <img src="./images/conversation.svg" alt="conversation">
+              <h6>MALESUADA FAMES TURPIS.</h6>
+              <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+            </div>
+        
+            <div>
+              <img src="./images/settings.svg" alt="settings">
+              <h6>MALESUADA FAMES TURPIS.</h6>
+              <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+            </div>
+        
+            <div>
+              <img src="./images/printer.svg" alt="printer">
+              <h6>MALESUADA FAMES TURPIS.</h6>
+              <p>vel ultrices mauris libero id diam. Viva-mus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+            </div>
+          </div>
+        </div>  
+      -->
+      
+    </main>
   </body>
 </html>
