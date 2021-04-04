@@ -120,9 +120,16 @@ button:hover {
   margin-top: 178px;
 }
 
-.images-bar img {
+.bar .images-bar ul li img {
   display: flex;
   flex-direction: row;
-  margin-left: 243px;
-  padding: 28px;
+  margin-left: 200px;
+  padding: 28px 1px;
+  cursor:pointer;
+}
+
+.bar ul {
+  display: flex;
+  list-style: none;
+ 
 }
