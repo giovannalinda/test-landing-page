@@ -85,14 +85,14 @@ ul {
   margin-left: 16px;
 }
 
-.banner {
+.about {
   display: flex;
 
   margin-top: 100px;
   width: 100%;
 }
 
-.banner .background-image {
+.about .background-image {
   position: absolute;
 
   max-width: 100vw;
@@ -100,7 +100,7 @@ ul {
   z-index: -1;
 }
 
-.banner-content {
+.about-content {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -108,7 +108,7 @@ ul {
   margin: 183px 283px;
 }
 
-.banner-content p {
+.about-content p {
   max-width: 500px;
   letter-spacing: 0.5px;
   margin-top: 20px;
@@ -117,13 +117,13 @@ ul {
   color: #777576;
 }
 
-.banner-content h1 {
+.about-content h1 {
   font-size: 24px;
   letter-spacing: 3px;
   color: #525252;
 }
 
-.content-banner h1 {
+.content-about h1 {
   display: flex;
   font-size: 24px;
   color: #525252;
@@ -131,7 +131,7 @@ ul {
   letter-spacing: 3px;
 }
 
-.content-banner p {
+.content-about p {
   display: flex;
   margin-left: 273px;
   width: 500px;
@@ -142,16 +142,16 @@ ul {
   color: #777576;
 }
 
-.banner-content .buttons-banner  {
+.about-content .buttons-about  {
   display: flex;
   margin-top: 30px;
 }
 
-.banner-content .buttons-banner button img {
+.about-content .buttons-about button img {
   margin-right: 16px;
 }
 
-.banner-content .buttons-banner button {
+.about-content .buttons-about button {
   height: 50px;
 
   display: flex;
@@ -168,7 +168,7 @@ ul {
   cursor: pointer;
 }
 
-.banner-content .buttons-banner button + button {
+.about-content .buttons-about button + button {
   margin-left: 20px;
 }
 
@@ -472,3 +472,14 @@ button:hover {
 
 }
 
+.footer img {
+  margin-bottom: 80px;
+}
+
+.footer p {
+  color: #999696;
+}
+
+.footer strong {
+  color: #000;
+}
