@@ -4,14 +4,11 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   background: #faf9f9;
   font-family: 'Open Sans', 'regular';
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  
 }
 
 .navigation {
@@ -35,7 +32,6 @@ body {
   margin-right: -140px;
   font-size: 16px;
   cursor: pointer;
-
 }
 
 li:hover {
@@ -80,7 +76,6 @@ li:hover {
   font-family: 'Open Sans', sans-serif;
   margin-left: 273px;
   margin-top: 30px;
-
 }
 
 .buttons-banner button img {
@@ -131,5 +126,4 @@ button:hover {
 .bar ul {
   display: flex;
   list-style: none;
- 
 }
