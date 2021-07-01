@@ -1,3 +1,3 @@
-<h1 align = "center">test-landing-page</h1>
+<h1 align = "center">Landing Page</h1>
 
-<h4 align = "center">Desafio de desenvolver uma landing page de um aplicativo de fotos 🙃</h4>
+<h4 align = "center">Desafio landing page com o intuito de promover a instalação um aplicativo de fotos 🙃</h4>
